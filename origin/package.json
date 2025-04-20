@@ -1,0 +1,12 @@
+{
+  "name": "render-text-app",
+  "version": "1.0.0",
+  "description": "Simple text display application for Render deployment",
+  "scripts": {
+    "start": "node backend/server.js",
+    "install": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
